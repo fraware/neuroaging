@@ -6,7 +6,7 @@ from pyprep.find_noisy_channels import NoisyChannels
 from tqdm import tqdm
 from mne.time_frequency import psd_array_welch
 from mne.io import RawArray
-
+ 
 def preprocess_hbn_data(raw_dir: str, preprocessed_dir: str, montage_file: str,
                         l_freq=0.1, h_freq=45, sfreq=100):
     """
