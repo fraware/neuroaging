@@ -1,0 +1,9 @@
+mne
+natsort
+numpy
+pandas
+pyprep
+scipy
+scikit-learn
+tqdm
+wget
