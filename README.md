@@ -9,6 +9,7 @@ This repository provides a pipeline for predicting human brain age from EEG data
 
 ## Repository Structure
 
+```plaintext
 brain-age-prediction/
 ├── .gitignore
 ├── LICENSE
@@ -18,6 +19,7 @@ brain-age-prediction/
 ├── preprocessing.py        <-- EEG preprocessing & PSD computation scripts
 ├── train.py                <-- Script to load preprocessed data & train the SVR
 └── predict.py              <-- Script to load a saved model & predict on new data
+```
 
 ## Installation
 
@@ -30,13 +32,6 @@ brain-age-prediction/
 2. **Install the required Python libraries**:
    
    ```bash
-   pip install -r requirements.txt
-
-   or, if you prefer a conda environment:
-   
-   ```bash
-   conda create -n brain-age python=3.9
-   conda activate brain-age
    pip install -r requirements.txt
 
 ## Data
@@ -90,13 +85,13 @@ Outputs a `submission.csv` file that can be used for challenge submissions.
 
 ## Customizing the Pipeline
 
-**File Paths**
+- **File Paths**
 All scripts contain variables at the top specifying input/output directories (e.g., `HBN_OUTPUT_DIR`, `preproc_dir`, `psd_dir`). **Update these** to reflect your directory structure.
 
-**Hyperparameters**
+- **Hyperparameters**
 By default, we use an SVR with a certain `C` and `kernel` (`train.py`). You can enable **nested cross-validation** (`nested_cv=True`) if you want automatic hyperparameter search, though it can be time-consuming.
 
-**Bad Channel Threshold**
+- **Bad Channel Threshold**
 In `preprocessing.py`, we skip recordings with **>30 noisy channels**. **Adjust as needed** if you want a different threshold.
 
 ## Troubleshooting
