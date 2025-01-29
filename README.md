@@ -13,12 +13,12 @@ This repository provides a pipeline for predicting human brain age from EEG data
 neuroaging/
 ├── .gitignore
 ├── LICENSE
-├── README.md               <-- You are here
 ├── requirements.txt        <-- Python dependencies
 ├── download_data.py        <-- Download HBN participants file & .mat/.npy data
 ├── preprocessing.py        <-- EEG preprocessing & PSD computation scripts
 ├── train.py                <-- Script to load preprocessed data & train the SVR
 └── predict.py              <-- Script to load a saved model & predict on new data
+README.md               <-- You are here
 ```
 
 ## Installation
