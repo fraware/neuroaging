@@ -1,4 +1,4 @@
-# Neuro-Aging
+# The Neuroscience Aging Project
 
 This repository provides a pipeline for predicting human brain age from EEG data using both the **Healthy Brain Network (HBN)** dataset and the **Brain Age Challenge** dataset. It includes:
 
