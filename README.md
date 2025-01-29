@@ -1,7 +1,5 @@
 # Neuro-Aging
 
-EEG to Age Prediction Project
-
 This repository provides a pipeline for predicting human brain age from EEG data using both the **Healthy Brain Network (HBN)** dataset and the **Brain Age Challenge** dataset. It includes:
 
 - Scripts to **download** and **prepare** the HBN data.  
@@ -34,8 +32,8 @@ brain-age-prediction/
    ```bash
    pip install -r requirements.txt
 
-or, if you prefer a conda environment:
-
+   or, if you prefer a conda environment:
+   
    ```bash
    conda create -n brain-age python=3.9
    conda activate brain-age
@@ -113,23 +111,3 @@ Contributions are welcome! Feel free to open an issue or a pull request if you h
 ## License
 This project is licensed under the terms of the **[MIT License](https://opensource.org/license/mit)**.  
 Refer to the [`LICENSE`](LICENSE) file for details.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
