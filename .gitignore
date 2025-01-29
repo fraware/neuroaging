@@ -1,0 +1,12 @@
+# Ignore common Python stuff
+__pycache__/
+*.pyc
+
+# Ignore data folders and large files (example)
+data/
+*.npy
+*.mat
+
+# Virtual environments
+venv/
+.env
