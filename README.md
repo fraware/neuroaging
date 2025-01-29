@@ -101,13 +101,12 @@ In `preprocessing.py`, we skip recordings with **>30 noisy channels**. **Adjust 
 
 ## Troubleshooting
 
-**Permissions or Path Errors**: Make sure the directories used for data and output actually exist, or let the scripts create them automatically (`os.makedirs(..., exist_ok=True)`).
-**Large Files**: If you run out of space or memory, consider removing older intermediates or storing them on external drives.
-**Missing Dependencies**: If you see `ModuleNotFoundError`, verify you installed `requirements.txt` correctly.
+- **Permissions or Path Errors**: Make sure the directories used for data and output actually exist, or let the scripts create them automatically (`os.makedirs(..., exist_ok=True)`).
+- **Large Files**: If you run out of space or memory, consider removing older intermediates or storing them on external drives.
+- **Missing Dependencies**: If you see `ModuleNotFoundError`, verify you installed `requirements.txt` correctly.
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or a pull request if you have fixes or enhancements.
 
 ## License
-This project is licensed under the terms of the **[MIT License](https://opensource.org/license/mit)**.  
-Refer to the [`LICENSE`](LICENSE) file for details.
+This project is licensed under the terms of the **[MIT License](https://opensource.org/license/mit)**. Refer to the [`LICENSE`](LICENSE) file for details.
