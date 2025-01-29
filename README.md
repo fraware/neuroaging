@@ -10,7 +10,7 @@ This repository provides a pipeline for predicting human brain age from EEG data
 ## Repository Structure
 
 ```plaintext
-brain-age-prediction/
+neuroaging/
 ├── .gitignore
 ├── LICENSE
 ├── README.md               <-- You are here
@@ -26,7 +26,7 @@ brain-age-prediction/
 1. **Clone or download** this repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/brain-age-prediction.git
+   git clone https://github.com/YOUR_USERNAME/neuroaging.git
    cd neuroaging
 
 2. **Install the required Python libraries**:
